@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Meindl"
+  },
+  "text": {
+    "more": "Based on scientific articles abstracts from Scopus.",
+    "intro": "Map of Industry 4.0 technologies",
+    "title": "Industry 4.0 technology map"
+  },
+  "legend": {
+    "edgeLabel": "Links between technologies",
+    "colorLabel": "Technology clusters",
+    "nodeLabel": "Technologies"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Technology cluster",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 4,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 14.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 15,
+      "minRatio": 0.75
+    }
+  }
+}
